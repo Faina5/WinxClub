@@ -5,3 +5,8 @@
 
 неосуществимы, ВЫ ОШИБАЕТЕСЬ. 
 ### На этом сайте вы сможете вступить в клуб, узнать всю волшебную историю фей и даже взять на себя роль любой феи и сразиться за Магикс!
+![2023-07-13_12-29-58](https://github.com/Faina5/WinxClub/assets/124639772/95757370-7789-45a6-b95a-4ce3a0f2107d)
+![2023-07-13_12-32-03](https://github.com/Faina5/WinxClub/assets/124639772/ff52e6c9-fbcb-47b7-916b-ef460eb8b9ea)
+![2023-07-13_12-32-16](https://github.com/Faina5/WinxClub/assets/124639772/cbed3ab6-b62a-4a63-bc5f-6a1f18e7ffb7)
+![2023-07-13_12-32-24](https://github.com/Faina5/WinxClub/assets/124639772/f712229d-790e-4b72-8e82-15c18e47fc25)
+![2023-07-13_12-33-15](https://github.com/Faina5/WinxClub/assets/124639772/b8d5afc6-d017-4506-ad37-f1b21788e2ad)
