@@ -46,6 +46,8 @@ table {
 	border-spacing: 0;
 }
 
+@import "fonts";
+
 @font-face {
     font-family: 'a_avantebsnrlight';
     src: url('fonts/a_avantebsnr_light-webfont.woff2') format('woff2'),
