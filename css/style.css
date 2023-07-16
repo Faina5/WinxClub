@@ -48,14 +48,14 @@ table {
 
 @font-face {
     font-family: 'a_avantebsnrlight';
-    src: url('../fonts/a_avantebsnr_light-webfont.woff2') format('woff2'),
-         url('../fonts/a_avantebsnr_light-webfont.woff') format('woff');
+    src: url('./fonts/a_avantebsnr_light-webfont.woff2') format('woff2'),
+         url('./fonts/a_avantebsnr_light-webfont.woff') format('woff');
 }
 
 @font-face {
     font-family: 'a_avantebsnrbold';
-    src: url('../fonts/a_avantebsnr_bold-webfont.woff2') format('woff2'),
-         url('../fonts/a_avantebsnr_bold-webfont.woff') format('woff');
+    src: url('./fonts/a_avantebsnr_bold-webfont.woff2') format('woff2'),
+         url('./fonts/a_avantebsnr_bold-webfont.woff') format('woff');
 }
 
 body{
