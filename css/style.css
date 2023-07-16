@@ -49,16 +49,16 @@ table {
 
 @font-face {
     font-family: 'a_AvanteBsNr';
-    src: url('fonts/a_avantebsnr_light-webfont.woff2') format('woff2'),
-         url('fonts/a_avantebsnr_light-webfont.woff') format('woff');
+    src: url('./fonts/a_avantebsnr_light-webfont.woff2') format('woff2'),
+         url('./fonts/a_avantebsnr_light-webfont.woff') format('woff');
 	font-weight: 300;
 	font-style: normal;
 }
 
 @font-face {
     font-family: 'a_AvanteBsNr';
-    src: url('fonts/a_avantebsnr_bold-webfont.woff2') format('woff2'),
-         url('fonts/a_avantebsnr_bold-webfont.woff') format('woff');
+    src: url('./fonts/a_avantebsnr_bold-webfont.woff2') format('woff2'),
+         url('./fonts/a_avantebsnr_bold-webfont.woff') format('woff');
 	font-weight: 700;
 	font-style: normal;
 }
