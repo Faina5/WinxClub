@@ -46,23 +46,26 @@ table {
 	border-spacing: 0;
 }
 
-@import "fonts";
 
 @font-face {
-    font-family: 'a_avantebsnrlight';
+    font-family: 'a_AvanteBsNr';
     src: url('fonts/a_avantebsnr_light-webfont.woff2') format('woff2'),
          url('fonts/a_avantebsnr_light-webfont.woff') format('woff');
+	font-weight: 300;
+	font-style: normal;
 }
 
 @font-face {
-    font-family: 'a_avantebsnrbold';
+    font-family: 'a_AvanteBsNr';
     src: url('fonts/a_avantebsnr_bold-webfont.woff2') format('woff2'),
          url('fonts/a_avantebsnr_bold-webfont.woff') format('woff');
+	font-weight: 700;
+	font-style: normal;
 }
 
 body{
     height: 100%;
-    font-family: a_AvanteBsNr;
+    font-family: 'a_AvanteBsNr';
     margin: 0 auto;
     background-color: rgba(206, 160, 187, 0.473);
 }
