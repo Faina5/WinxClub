@@ -45,7 +45,7 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-
+@import './fonts'
 
 @font-face {
     font-family: 'a_AvanteBsNr';
