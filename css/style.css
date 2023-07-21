@@ -23,7 +23,6 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;
 }
-
 html {
 	height: 100%;
 }
@@ -45,27 +44,12 @@ table {
 	border-collapse: collapse;
 	border-spacing: 0;
 }
-@import './fonts';
 
-@font-face {
-    font-family: 'a_AvanteBsNr';
-    src: url('./fonts/a_avantebsnr_light-webfont.woff2') format('woff2'),
-         url('./fonts/a_avantebsnr_light-webfont.woff') format('woff');
-	font-weight: 300;
-	font-style: normal;
-}
-
-@font-face {
-    font-family: 'a_AvanteBsNr';
-    src: url('./fonts/a_avantebsnr_bold-webfont.woff2') format('woff2'),
-         url('./fonts/a_avantebsnr_bold-webfont.woff') format('woff');
-	font-weight: 700;
-	font-style: normal;
-}
 
 body{
     height: 100%;
-    font-family: 'a_AvanteBsNr';
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
     margin: 0 auto;
     background-color: rgba(206, 160, 187, 0.473);
 }
@@ -83,13 +67,13 @@ body{
 
 .header {
     display: flex;
-    justify-content:center;
+    justify-content: center;
     background-color: pink;
     border-radius: 0 0 3.125rem 3.125rem;
     width: 70%;
     height: 25%;
     text-transform: uppercase;
-    margin: auto;
+    margin: 0 auto 20px;
     position:relative;
 }   
 .header a:hover {
@@ -209,6 +193,45 @@ button:active {
     width: 100%;
     font-weight: bold;
     break-before: avoid-page;
+    margin-top: 10px;
+}
+
+.image-container{
+    position: relative;
+}
+
+.overlay{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 192px;
+    left: 2px;
+    width: 11.875rem;
+    height: 5rem;
+    margin: 15px;
+    padding: 5px;
+    border-radius: 10px;
+    opacity: 0;
+    background-color: rgba(255, 205, 222, 0.644);
+    transition: opacity 0.3s ease;
+}
+
+.text{
+    color: #ad1646;
+    font-size: 20px;
+    font-weight: bold;
+    font-family:'Courier New', Courier, monospace;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.image-container:hover .overlay{
+    opacity: 1;
+}
+
+.image-container:hover .text{
+    opacity: 1;
 }
 
 .movies p {
@@ -266,3 +289,4 @@ button:active {
     width: 100%;
     break-before: avoid-page;
 }
+
