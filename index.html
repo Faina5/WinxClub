@@ -1,43 +1,79 @@
 <!DOCTYPE html>
-<html lang="ru">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Winx Club</title>
-    <link rel="stylesheet" href="css/style.css">
-</head>
 
+    <link rel="icon" href="./images/fairy-icon.svg">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="css/media.css">
+</head>
 <body>
     <div class="wrapper">
         <header class="header">
-            <img class="logotype"  src="https://upload.wikimedia.org/wikipedia/commons/5/59/Winx_%28logo%29.svg">
-            <a class="about-here">Главная</a>
-            <a class="about" href="films.html">Фильмография</a>
-            <a class="about" href="games.html">Игры</a>
-        </header>
-        <main class="main">
-            <div class="form">
-                <p><strong>Команда Винкс приветствует тебя!</strong></p>
-                <img class="leyla-img" src="https://catherineasquithgallery.com/uploads/posts/2021-03/1614573007_7-p-vinks-na-belom-fone-12.png" alt="LeylaHi"> <br>
-                <div class="frame-form">
-                    <label for="name">Напиши своё имя!</label><br>
-                    <input class="name-input" type="name" placeholder="Введи своё имя" id="name"><br>
+            <div class="container">
+                
+                <div class="header-inner">
+                    <a href="./index.html"><img src="./images/logo.png" alt="logo" class="logo"></a>
+                    <nav class="menu-main">
 
-                    <label for="age">Выбери дату своего рождения!</label><br>
-                    <input class="age-input" id="age" type="date"><br>
+                        <label class="menu-btn">
+                            <input type="checkbox" class="burger-input">
+                            <span class="menu"> <span class="hamburger"></span> </span>
 
-                    <label for="color">Выбери любимый цвет!</label><br>
-                    <input class="color-input" id="color" type="color"><br><br>
-
-                    <p>Отлично! Теперь можно входить в мир магии и волшебства!</p>
-                    <a href="films.html"><button>Войти</button></a>
+                        <ul class="menu-list">
+                            <li class="menu-list__item"><a href="#" class="menu-list__link active">Главная</a></li>
+                            <li class="menu-list__item"><a href="./html/films.html" class="menu-list__link">Фильмы</a></li>
+                            <li class="menu-list__item"><a href="./html/games.html" class="menu-list__link">Игры</a></li>
+                        </ul>
+                    </label>
+                    </nav>
                 </div>
             </div>
+        </header>
+
+        <main class="main">
+            <div class="container">
+                
+                <section class="form">
+                    <img src="./images/form.png" alt="form image" class="form__img">
+                    <div class="form-space">
+                        <div class="form-frame">
+                            <h2 class="hello">Команда Винкс приветствует тебя!</h2>
+                            <div class="container-input">
+                                <label for="name">Напиши своё имя</label>
+                                <input class="name-input" type="text" name="text" placeholder="Введи имя" id="name">
+                            </div>
+
+                            <div class="container-input">
+                                <label for="age">Выбери свою дату рождения</label>
+                            <input class="age-input" id="age" type="date">
+                            </div>
+
+                            <div class="container-input">
+                                <label for="color">Любимый цвет</label>
+                            <input class="color-input" id="color" type="color">
+                            </div>
+                            
+                        </div>
+                        <a class="welcome" href="./html/films.html">
+                            <span class="hover-underline-animation"> Войти </span>
+                            <img src="./images/arrow-square-right.svg" alt="arrow">
+                        </a>
+                    </div>
+                </section>
+            </div>
         </main>
+
         <footer class="footer">
-            <img class="logotype" src="https://upload.wikimedia.org/wikipedia/commons/5/59/Winx_%28logo%29.svg">
-            <p>ⓒWinx Club page</p>
+            <div class="container footer-items">
+                    <p class="copyright">
+                        ⓒWinxClubPage
+                    </p>
+            </div>
         </footer>
     </div>
+    
 </body>
-
 </html>
