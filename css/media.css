@@ -13,12 +13,37 @@
         display: grid;
         grid-template-columns: repeat(2, 1fr);
     }
+    iframe{
+      width: -webkit-fill-available;
+    }
 }
 
 @media (max-width: 650px) {
     .cards__rows{
         display: grid;
         grid-template-columns: 1fr;
+    }
+    .myCard{
+      margin: 0.7rem;
+      perspective:none;
+      height:auto;
+    }
+    .innerCard{
+      display: grid;
+      grid-template-columns: 1fr;
+
+    }
+    .innerCard, .frontSide,.backSide{
+      position: unset;
+      transform: none;
+      transition: none;
+      transform-style:unset;
+    }
+    .myCard:hover .innerCard {
+      transform: none;
+    }
+    .backSide {
+      transform: none;
     }
     .menu-main{
         background: #f5a8d5;
@@ -115,7 +140,16 @@
 }
 
 @media (max-width: 530px) {
+    .main{
+      margin: 0.7rem;
+    }
     .form-frame{
         width: 100%;
+    }
+    .cards__set{
+      padding: 0.5rem;
+    }
+      iframe{
+      height: 100%;
     }
 }
