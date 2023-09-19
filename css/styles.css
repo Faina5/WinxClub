@@ -11,7 +11,7 @@ html{
     margin: 0;
 }
 h3{
-    padding-bottom: 1rem;
+    padding: 1rem;
 }
 ul{
     list-style: none;
@@ -31,7 +31,10 @@ html, body{
 body{
     height: 100%;
     color: #fff;
-    background-color: #f5a8d5;
+    background-color: #a8d0f5;
+    background-image: url(../images/pngwing.com.png);
+    background-repeat: no-repeat;
+    background-size: cover;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 1.125rem;
     font-weight: 300;
@@ -57,17 +60,20 @@ body{
 .logo{
   width: 12rem;
   padding: 1rem 0;
-  filter: drop-shadow(5px 5px 5px #d08fb5);
+  filter: drop-shadow(5px 5px 5px #8fb6d0);
 }
+
 .menu-main{
-    top: -1rem;
+    top: 0;
+    right: 0;
     display: flex;
     align-items: flex-end;
-    border-radius: 0 0 1rem 1rem;
-    background: #f5a8d5;
-    box-shadow:  -20px 20px 60px #d08fb5,
-                20px -20px 60px #ffc1f5;
-    height: 5rem;
+    border-radius: 0 0 50px 50px;
+    border: #d0e9fc;
+    background: #a8d0f5;
+    box-shadow:  -9px -9px 17px #8fb1d0,
+             9px 9px 17px #c1efff;
+    height: 5.3rem;
     padding: 1rem;
 }
 .menu-list{
@@ -118,12 +124,11 @@ body{
 .form{
     display: flex;
     flex-direction: row-reverse;
-    justify-content: space-around;
+    justify-content: space-between;
 }
 .form__img{
-    width: 20rem;
-    filter: drop-shadow(5px 5px 5px #d08fb5);
-    transform: scale(-1, 1)
+    width: 30rem;
+    filter: drop-shadow(5px 5px 5px #8fb3d0);
 }
 .form-space{
     display: flex;
@@ -137,12 +142,13 @@ body{
     justify-content: center;
     width: 30rem;
     padding: 1rem;
+    margin-top: 5rem;
     margin-bottom: 1.5rem;
     gap: 1.5rem;
     border-radius: 50px;
-    background: #f5a8d5;
-    box-shadow:  -20px 20px 60px #d08fb5,
-                20px -20px 60px #ffc1f5;
+    background: #a8d0f5;
+    box-shadow:  -11px 11px 42px #86a6c4,
+             11px -11px 42px #cafaff;
 }
 .hello{
     text-align: center;
@@ -161,9 +167,9 @@ input {
     font-size: 16px;
     border-radius: 1rem;
     color: #fff;
-    background: #f5a8d5;
-    box-shadow: inset -20px 20px 60px #d08fb5,
-                inset 20px -20px 60px #ffc1f5;
+    background: #a8d0f5;
+    box-shadow: inset 20px 20px 60px #8fb1d0,
+                inset -20px -20px 60px #c1efff;
 }
 .name-input::placeholder{
     color:#ffffffb0;
@@ -225,9 +231,9 @@ input {
 }
 .cards__set{
     border-radius: 1rem;
-    background: #f5a8d5;
-    box-shadow:  -20px 20px 60px #d08fb5,
-                20px -20px 60px #ffc1f5;
+    background: #a8d0f5;
+    box-shadow:  -11px 11px 42px #86a6c4,
+             11px -11px 42px #cafaff;
     padding: 1.5rem;
 }
 .cards__rows{
@@ -285,9 +291,9 @@ input {
 }
 .backSide,
 .backSide::before {
-    background: #f5a8d5;
-    box-shadow:  -10px 10px 50px #d08fb5,
-                10px -10px 50px #ffc1f5;
+    background: linear-gradient(225deg, #b4dfff, #97bbdd);
+    box-shadow:  -11px 11px 42px #86a6c4,
+                11px -11px 42px #cafaff;
 }
 .backSide {
     transform: rotateY(180deg);

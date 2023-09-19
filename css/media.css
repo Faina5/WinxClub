@@ -6,6 +6,9 @@
 }
 
 @media (max-width: 850px) {
+  .form{
+    flex-direction: column;
+  }
     .form img{
         display: none;
     }
@@ -19,15 +22,31 @@
 }
 
 @media (max-width: 650px) {
-    .cards__rows{
-        display: grid;
-        grid-template-columns: 1fr;
-    }
+  body{
+    -webkit-tap-highlight-color: transparent;
+    font-size: 1rem;
+  }
+
+  .logo {
+    width: 11rem;
+  }
+  .form-frame{
+    margin-top: 2rem;
+  }
     .myCard{
+      width: 150px;
+      height: 200px;
       margin: 0.7rem;
       perspective:none;
       height:auto;
     }
+    .myCard img{
+      width:150px;
+      height: 200px;
+    }
+    .title-card {
+      padding-bottom: 0.5rem;
+  }
     .innerCard{
       display: grid;
       grid-template-columns: 1fr;
@@ -45,9 +64,11 @@
     .backSide {
       transform: none;
     }
+
     .menu-main{
-        background: #f5a8d5;
-        box-shadow:none;
+        height: 6rem;
+        width: 6rem;
+        border-radius: 0 0 0 5rem;
     }
     .menu-btn .menu {
         position: absolute;
@@ -63,8 +84,8 @@
       
       .menu-btn .hamburger {
         position: absolute;
-        top: 4rem;
-        left: 0rem;
+        top: 2.5rem;
+        left: -0.5rem;
         width: 2rem;
         height: 3px;
         background: #fff;
@@ -93,41 +114,36 @@
       .menu-btn .burger-input { display: none; }
       
       .menu-btn .burger-input:checked + .menu {
-        box-shadow: 0 0 0 100vw #f5a8d5, 0 0 0 100vh #f5a8d5;
+        box-shadow: 0 0 0 100vw #a8d0f5dc, 0 0 0 100vh #a8d0f5d5;
         border-radius: 0;
-        
       }
       
       .menu-btn .burger-input:checked + .menu .hamburger {
         -webkit-transform: rotate(45deg);
-        transform: rotate(45deg);
-        
+        transform: rotate(45deg);        
       }
       
       .menu-btn .burger-input:checked + .menu .hamburger:after {
         -webkit-transform: rotate(90deg);
         transform: rotate(90deg);
         bottom: 0;
-        
       }
       
       .menu-btn .burger-input:checked + .menu .hamburger:before {
         -webkit-transform: rotate(90deg);
         transform: rotate(90deg);
         top: 0;
-        
       }
       
-      .menu-btn .burger-input:checked + .menu + ul { opacity: 1; }
+      .menu-btn .burger-input:checked + .menu + ul { z-index: 4;}
       
       .menu-btn ul {
-        z-index: 200;
+        z-index: -1;
         position: absolute;
         top: 50%;
         left: 50%;
         -webkit-transform: translate(-50%, -50%);
         transform: translate(-50%, -50%);
-        opacity: 0;
         -webkit-transition: .25s 0s ease-in-out;
         transition: .25s 0s ease-in-out;
       }
@@ -136,7 +152,28 @@
         margin-bottom: 1em;
         display: block;    
       }
-    
+      .menu-list__item::before {
+        transition:none;
+    }
+    .menu-list__item:hover {
+        transition-delay:unset;
+    }
+    .menu-list__item:hover::after {
+        transition-delay: unset;
+    }
+
+    .welcome span{
+      padding: 1rem 0;
+    }
+    .hover-underline-animation:after {
+      transform-origin: unset;
+      transition:none;
+    }
+  .welcome:hover .hover-underline-animation:after {
+      transform:unset;
+      transform-origin:unset;
+      
+  }    
 }
 
 @media (max-width: 530px) {
@@ -151,5 +188,22 @@
     }
       iframe{
       height: 100%;
+    }
+    .myCard{
+      width: 100px;
+      height: 150px;
+      margin: 0.7rem;
+      perspective:none;
+      height:auto;
+    }
+    .myCard img{
+      width:100px;
+      height: 150px;
+    }
+    .myCard p{
+      font-size: 0.85rem;
+    }
+    .backSide{
+      padding: 0.5rem;
     }
 }
