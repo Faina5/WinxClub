@@ -152,6 +152,9 @@
         margin-bottom: 1em;
         display: block;    
       }
+    .menu-list {
+    flex-direction: column;
+    }
       .menu-list__item::before {
         transition:none;
     }
