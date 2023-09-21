@@ -35,6 +35,7 @@ body{
     background-image: url(../images/pngwing.com.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-attachment: fixed;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 1.125rem;
     font-weight: 300;
