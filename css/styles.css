@@ -35,7 +35,7 @@ body{
     background-image: url(../images/pngwing.com.png);
     background-repeat: no-repeat;
     background-size: cover;
-    background-attachment: fixed;
+    background-attachment:fixed;
     font-family: 'Montserrat Alternates', sans-serif;
     font-size: 1.125rem;
     font-weight: 300;
@@ -56,7 +56,6 @@ body{
     display: flex;
     justify-content: space-between;
     align-items: stretch;
-    
 }
 .logo{
   width: 12rem;
@@ -69,7 +68,7 @@ body{
     right: 0;
     display: flex;
     align-items: flex-end;
-    border-radius: 0 0 50px 50px;
+    border-radius: 0 0 1rem 1rem;
     border: #d0e9fc;
     background: #a8d0f5;
     box-shadow:  -9px -9px 17px #8fb1d0,
@@ -241,6 +240,7 @@ input {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
     justify-items: center;
+    align-items: center;
 }
 
 /* CARD ANIMATION */
@@ -312,3 +312,4 @@ input {
     margin: 1.5rem;
     padding: 0.5rem;
 }
+
